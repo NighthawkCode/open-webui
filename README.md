@@ -1,4 +1,4 @@
-![logo](https://github.com/NighthawkCode/open-webui/assets/81494065/3157e511-6b2a-4c53-817b-9959b607151e)
+![favicon](https://github.com/NighthawkCode/open-webui/assets/81494065/181f8eb0-2a71-4527-8d9f-d92ecbdf5d5b)
 # Nighthawk AI
 
 
