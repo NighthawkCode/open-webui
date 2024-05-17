@@ -1,4 +1,6 @@
+![logo](https://github.com/NighthawkCode/open-webui/assets/81494065/3157e511-6b2a-4c53-817b-9959b607151e)
 # Nighthawk AI
+
 
 Nighthawk AI is an intelligent assistant designed to streamline agricultural operations by providing automated dispatch and information retrieval capabilities. The application leverages various AI models and services to offer users efficient and accurate responses to their queries.
 
