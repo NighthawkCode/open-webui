@@ -2,7 +2,7 @@
 # Nighthawk AI
 
 
-Nighthawk AI is an intelligent assistant designed to streamline agricultural operations by providing automated dispatch and information retrieval capabilities. The application leverages various AI models and services to offer users efficient and accurate responses to their queries.
+Nighthawk AI is an intelligent assistant designed to streamline agricultural operations by providing automated dispatch and information retrieval capabilities.
 
 ## Tech Stack
 
@@ -19,7 +19,13 @@ Nighthawk AI is an intelligent assistant designed to streamline agricultural ope
 
 ### Local Setup
 
-1. **Clone the repository**:
+1. **Clone and navigate to the repository**:
    ```bash
    git clone https://github.com/NighthawkCode/open-webui.git
    cd open-webui
+
+2. **Build the custom Docker image**
+   ```docker build -t open-webui-custom .
+
+3. **Run the container locally**
+   ```docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui-custom --restart always open-webui-custom
