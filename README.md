@@ -1,6 +1,5 @@
 ![favicon](https://github.com/NighthawkCode/open-webui/assets/81494065/181f8eb0-2a71-4527-8d9f-d92ecbdf5d5b)
-# Nighthawk AI
-
+# Nighthawk AI Staging
 
 Nighthawk AI is an intelligent assistant designed to streamline agricultural operations by providing automated dispatch and information retrieval capabilities.
 
@@ -35,3 +34,24 @@ Nighthawk AI is an intelligent assistant designed to streamline agricultural ope
 4. **View the local app**
    ```bash
    http://localhost:3000/
+
+### Deploying Changes
+
+When you are ready to test your changes on a deployment, follow these steps.
+
+1. **Request Access to Nighthawk Staging on Heroku**
+   - Reach out to ```radinubilo@gmail.com``` to get elevated permissions on the Heroku staging server
+
+2. **Download the Heroku CLI**
+   ```bash
+   curl https://cli-assets.heroku.com/install.sh | sh
+
+3. **Login to the Heroku CLI**
+   ```bash
+   heroku login
+
+4. **Build and Deploy the updated Docker image**
+   ```
+   heroku container:login
+   heroku container:push web --app nighthawkui-v1
+   heroku container:release web --app nighthawkui-v1
