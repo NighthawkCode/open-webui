@@ -3,12 +3,6 @@
 
 Nighthawk AI is an intelligent assistant designed to streamline agricultural operations by providing automated dispatch and information retrieval capabilities.
 
-## Tech Stack
-
-- **Frontend**: Svelte
-- **Backend**: FastAPI
-- **Deployment**: Docker container on Heroku
-
 ## Prerequisites
 
 - Docker installed on your local machine
