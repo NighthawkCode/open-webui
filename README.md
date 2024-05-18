@@ -42,7 +42,7 @@ When you are ready to test your changes on a deployment, follow these steps.
 1. **Request Access to Nighthawk Staging on Heroku**
    - Reach out to ```radinubilo@gmail.com``` to get elevated permissions on the Heroku staging server
 
-2. **Download the Heroku CLI**
+2. **Download the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)**
    ```bash
    curl https://cli-assets.heroku.com/install.sh | sh
 
