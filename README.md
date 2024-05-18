@@ -21,11 +21,15 @@ Nighthawk AI is an intelligent assistant designed to streamline agricultural ope
    ```bash
    docker build -t open-webui-custom .
 
-3. **Run the container locally with GPU support**
+3. **Run the container locally with CPU only**
+   ```bash
+   docker run -d -p 3000:8080 -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui-custom --restart always open-webui-custom
+
+4. **Run the container locally with GPU support**
    ```bash
    docker run -d -p 3000:8080 --gpus=all -v ollama:/root/.ollama -v open-webui:/app/backend/data --name open-webui-custom --restart always open-webui-custom
 
-4. **View the local app**
+5. **View the local app**
    ```bash
    http://localhost:3000/
 
